@@ -33,3 +33,99 @@ button {
   font-size: inherit;
   font-family: inherit;
 }
+
+/* common CSS */
+.container {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  width: 149px;
+  height: 58px;
+  border-radius: 8px;
+  background: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.8rem; /* 175% */
+}
+
+/* Header CSS */
+.header {
+  margin-top: 42px;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-button__login {
+  color: #212832;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.8rem; /* 175% */
+  margin-right: 24px;
+}
+
+.header-button_btn {
+  width: 113px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #212832;
+  line-height: 4.8rem;
+}
+
+.header-nav {
+  /* margin-left: 70px; */
+}
+
+.header-nav__list {
+  display: flex;
+  align-items: center;
+  /* column-gap: 48px; */
+}
+
+.header-nav__item {
+  /* 175% */
+}
+
+.header-nav__item {
+  padding: 8px 24px;
+  color: #696d76;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+}
+
+.header-nav__item--active,
+.header-nav__item:hover {
+  color: #212832;
+  text-shadow: 1px 0 0 currentColor;
+  position: relative;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--primary-color);
+}
+
+/* .header-nav__item--active::after {
+    content: "";
+    position: absolute;
+
+} */
