@@ -57,6 +57,25 @@ a {
   line-height: 2.8rem; /* 175% */
 }
 
+.btn:hover {
+  opacity: 0.8;
+}
+
+.section-heading {
+  color: #212832;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5rem; /* 125% */
+}
+
+.section-desc {
+  color: #696d76;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem; /* 166.667% */
+  margin-top: 20px;
+}
+
 /* Header CSS */
 .header {
   margin-top: 42px;
@@ -125,8 +144,202 @@ a {
   text-decoration-color: var(--primary-color);
 }
 
-/* .header-nav__item--active::after {
-    content: "";
-    position: absolute;
+/* Hero CSS */
+.hero {
+  margin-top: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-} */
+.hero-mobile {
+  max-width: 296px;
+  height: 562px;
+  border-radius: 40px;
+  /* border: 12px solid #212832; */
+  background: #fff;
+  margin-left: 100px;
+  margin-right: 174px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.hero-mobile__img {
+  width: 100%;
+}
+
+/* hero interest */
+.hero-mobile__interest {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #da6464;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 127px;
+  right: -174px;
+}
+
+.hero-mobile__interest--num {
+  color: #fff;
+  text-align: center;
+  font-size: 4.4rem;
+  font-weight: 600;
+}
+
+.hero-mobile__interest--desc {
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+/* hero deposit */
+.hero-mobile__deposit {
+  width: 174px;
+  height: 46px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+  padding: 14px 10px;
+  position: absolute;
+  left: -100px;
+  top: 113px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-mobile__deposit--icon {
+  margin-right: 8px;
+}
+
+.hero-mobile__deposit--info {
+  margin-right: 19px;
+  color: #31456a;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.4rem; /* 100% */
+}
+
+.hero-mobile__deposit--num {
+  color: #4ab5e3;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4rem; /* 100% */
+}
+
+/* hero secure */
+.hero-mobile__secure {
+  width: 124px;
+  height: 68px;
+  border-radius: 10px;
+  background: #439f90;
+  position: absolute;
+  right: -74px;
+  bottom: 61px;
+  padding: 20px 14px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-mobile__secure-icon {
+  margin-right: 11px;
+}
+
+.hero-mobile__secure--num {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.4rem; /* 100% */
+}
+
+.hero-mobile__secure--info {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 0.8rem; /* 100% */
+}
+
+/* hero content */
+.hero-content {
+  width: 46%;
+}
+
+.hero-content__quote {
+  color: #696d77;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem; /* 175% */
+  position: relative;
+  margin-left: 30px;
+}
+
+.hero-content__quote::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 2px;
+  background: #696d77;
+  left: -26px;
+  top: 14px;
+}
+
+.hero-content__heading {
+  color: #212832;
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 7rem; /* 116.667% */
+}
+
+.hero-content__strong {
+  color: var(--primary-color);
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 7rem;
+}
+
+.hero-content__desc {
+  margin-bottom: 48px;
+}
+
+.hero-input {
+  margin-bottom: 20px;
+}
+
+.hero-form {
+  width: 100%;
+  height: 74px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 16px 42px 0px rgba(0, 0, 0, 0.07);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-form__email {
+  margin: 23px;
+  border: none;
+  width: 100%;
+}
+
+.hero-form__submit {
+  width: 180px;
+  height: 58px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.8rem; /* 175% */
+}
+
+.hero-content__note {
+  color: #696d76;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.4rem; /* 171.429% */
+}
