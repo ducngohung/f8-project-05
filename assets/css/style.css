@@ -65,13 +65,14 @@ a {
 .header-menu {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .header-button {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  margin-left: auto;
 }
 
 .header-button__login {
@@ -92,7 +93,7 @@ a {
 }
 
 .header-nav {
-  /* margin-left: 70px; */
+  margin-left: 70px;
 }
 
 .header-nav__list {
